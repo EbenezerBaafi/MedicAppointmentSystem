@@ -58,13 +58,14 @@ A Windows Forms application that allows **patients** to book, view, search/filte
 
 ## 🖼️ Screenshots
 
-> Place screenshots in the `/Screenshots` folder. Examples:
+* ***Main Form**
+  ![Main Form](ScreenShots/MainForm.png)
 
-* **Main Menu**
-  ![Main Menu](ScrrenShots/HomePage.png)
+* **Database Connection**
+  ![Database Connection](ScreenShots/DatabaseConnection.png)
 
-* **Doctors List**
-  ![Doctors List](ScreeShots/DoctorList.png)
+* **Doctor List**
+  ![Doctor List](ScreenShots/DoctorList.png)
 
 * **Book Appointment**
   ![Book Appointment](ScreenShots/BookAppointment.png)
