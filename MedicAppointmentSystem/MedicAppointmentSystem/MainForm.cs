@@ -1,4 +1,5 @@
-﻿using MedicAppointmentSystem;
+﻿using MedicalAppointmentSystem;
+using MedicAppointmentSystem;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -10,6 +11,12 @@ namespace MedicAppointmentSystem
         public MainForm()
         {
             InitializeComponent();
+
+            if (DatabaseConnection.TestConnection())
+            {
+                MessageBox.Show("Database connected successfully!", "Connection Test",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void InitializeComponent()
